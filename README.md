@@ -12,12 +12,12 @@ I created 2 function for draw function in `draw.js` file I used different techni
 
 cd project directory, and run:
 
-git clone git@github.com:schand143/infinite-recursive-shape.git
-cd infinite-recursive-shape
-npm install
-npm start
+`git clone git@github.com:schand143/infinite-recursive-shape.git`
+`cd infinite-recursive-shape`
+`npm install`
+`npm start`
 
-`npm && npm start`
+<!-- `npm && npm start` -->
 
 ## Testing
 
