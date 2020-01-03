@@ -51,15 +51,15 @@ you can see more details on the `draw.js` file.
 
 1.  `Width: 40, Height:60, padding: 4)`
 
-(screenshot(21).png?raw=true )
+![Screen Shot 1](<screenshot(21).png?raw=true> 'Screen Shot 1')
 
 2.  `(Width: 30, Height:50, padding: 6)`
 
-(screenshot(22).png?raw=true )
+![Screen Shot 2](<screenshot(22).png?raw=true> 'Screen Shot 2')
 
 4.  `(Width: 40, Height:80, padding: 60)`
 
-(screenshot(23).png?raw=true )
+![Screen Shot 3](<screenshot(23).png?raw=true> 'Screen Shot 3')
 
 ## My Activities
 
