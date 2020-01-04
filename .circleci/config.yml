@@ -1,23 +1,13 @@
-version: 2.1
+version: 2.1 # Use version 2.1 to enable orb usage.
+
+orbs:
+  win: circleci/windows@2.2.0 # The Windows orb give you everything you need to start using the Windows executor.
+
 jobs:
-  build:
-    docker:
-      - image: circleci/node:12.9.1-browsers
+  build: # name of your job
+    executor: win/default # executor type
 
-    working_directory: ~/repo
-steps:
-  - checkout
-
-  - restore_cache:
-    keys:
-      - v1-dependencies-{{ checksum "package.json" }}
-      - v1-dependencies-
-
-  - run: yarn install
-
-  - save_cache:
-    paths:
-      - node_modules
-    key: v1-dependencies-{{ checksum "package.json" }}
-
-  - run: yarn test
+    steps:
+      # Commands are run in a Windows virtual machine environment
+      - checkout
+      - run: Write-Host 'Hello, Windows'
