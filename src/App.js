@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from "react";
-import draw from "./draw";
-import "./App.css";
+import React, { useState, useEffect } from 'react';
+import draw from './draw';
+import './App.css';
 
 function App() {
-  const pixelEnum = { 0: " ", 1: "-", 2: "|" };
+  const pixelEnum = { 0: ' ', 1: '-', 2: '|' };
   const [matrix, setMatrix] = useState([]);
   const [formError, setFormError] = useState([]);
   const [formValues, setFormValues] = useState({
